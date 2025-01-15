@@ -1,6 +1,8 @@
 
 import './App.css'
-import PostContainer from './components/PostContainer'
+// import Counter from './components/Counter/Counter'
+// import PostContainer from './components/PostContainer'
+import Sendwich from './components/Sendwich/Sendwich'
 
 function App() {
   
@@ -8,7 +10,9 @@ function App() {
   return (
     
       <div>
-       <PostContainer />
+        {/* <Counter />
+       <PostContainer /> */}
+       <Sendwich />
     </div>
   )
 }
